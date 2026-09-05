@@ -6,4 +6,3 @@ const x = "web";
 const y = "mapping";
 const out = x + y;
 document.write(out);
-console.log(out);
