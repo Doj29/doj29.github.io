@@ -2,6 +2,12 @@
 //
 //user_name = window.prompt("Please enter your name", "Type your name here");
 //document.write("<h1>Hello, welcome " + user_name + "!</h1>");
+var webmaps =
+[
+  ["Oil Spill Toolkit", "https://www.glo.texas.gov", "The oil spill toolkit developed by Enterprise Technology Solutions is neat."],
+  ["Texas Ecosystems Analytical Mapper", "http://tpwd.texas.gov/gis/team/", "The Texas Parks and Wildlife's Landscape Ecology program is great."]
+];
+
 function welcome()
 {
     let a = "Please enter your name.";
@@ -12,11 +18,7 @@ function welcome()
     return message
 }
 
-var webmaps =
-[
-  ["Oil Spill Toolkit", "https://www.glo.texas.gov", "The oil spill toolkit developed by Enterprise Technology Solutions is neat."],
-  ["Texas Ecosystems Analytical Mapper", "http://tpwd.texas.gov/gis/team/", "The Texas Parks and Wildlife's Landscape Ecology program is great."]
-];
+
 
 function webmap_table()
 {
