@@ -57,5 +57,7 @@ h1 {
   text-align: left;
   font-size: 25px;
   position: relative;
+}
+.webmap-description {
   padding-bottom: 20px;
 }
