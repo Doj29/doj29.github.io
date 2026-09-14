@@ -26,22 +26,6 @@ var webmaps = [
   ]
 ];
 
-var webmaps =
-[
-  [
-    "Oil Spill Toolkit",
-    "https://www.glo.texas.gov",
-    "The Oil Spill Toolkit developed by Enterprise Technology Solutions of the Texas General Land Office is a decision-support resource.<br>" +
-    "This is my second sentence about the Oil Spill Toolkit.<br>" +
-    "This is my third sentence about the Oil Spill Toolkit.<br>" +
-    "This is my fourth sentence about the Oil Spill Toolkit."
-  ],
-  [
-    "Texas Ecosystems Analytical Mapper",
-    "http://tpwd.texas.gov/gis/team/",
-    "The Texas Parks and Wildlife's Landscape Ecology program is great."
-  ]
-];
 function welcome()
 {
     let a = "Please enter your name.";
