@@ -55,7 +55,7 @@ h1 {
 
 #webmap-reviews {
   text-align: left;
-  table-layout: auto;
   font-size: 25px;
   position: relative;
+  margin-left: 0;
 }
