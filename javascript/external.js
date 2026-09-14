@@ -12,6 +12,12 @@ function welcome()
     return message
 }
 
+var webmaps =
+[
+  ["Oil Spill Toolkit", "https://www.glo.texas.gov", "The oil spill toolkit developed by Enterprise Technology Solutions is neat."],
+  ["Texas Ecosystems Analytical Mapper", "http://tpwd.texas.gov/gis/team/", "The Texas Parks and Wildlife's Landscape Ecology program is great."]
+];
+
 function webmap_table()
 {
   document.write("<table width=100%>");
@@ -27,9 +33,3 @@ function webmap_table()
     document.write("</table>");
     return "";
 }
-
-var webmaps =
-[
-  ["Oil Spill Toolkit", "https://www.glo.texas.gov", "The oil spill toolkit developed by Enterprise Technology Solutions is neat."],
-  ["Texas Ecosystems Analytical Mapper", "http://tpwd.texas.gov/gis/team/", "The Texas Parks and Wildlife's Landscape Ecology program is great."]
-];
