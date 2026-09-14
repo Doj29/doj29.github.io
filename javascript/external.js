@@ -26,7 +26,7 @@ function webmap_table()
     for (var row=0; row < webmaps.length; row++)
     {
       document.write("<tr>");
-      for (var column=0; column < webmaps[0].lenght; column++)
+      for (var column=0; column < webmaps[0].length; column++)
       {
         document.write("<td>" + webmaps[row][column] + "</td>");
       }
