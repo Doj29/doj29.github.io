@@ -2,11 +2,7 @@
 //
 //user_name = window.prompt("Please enter your name", "Type your name here");
 //document.write("<h1>Hello, welcome " + user_name + "!</h1>");
-var webmaps =
-[
-  ["Oil Spill Toolkit", "https://www.glo.texas.gov", "The oil spill toolkit developed by Enterprise Technology Solutions of The Texas  General Land Office is a decision-support resources.\n This is where I would write my second sentence about the oil Spill Toolkit.\n This is where I would write my third sentence a bout the Oil spill Toolkit.\n This is where I would write my fourth sentence about the Oil Spill Toolkit."],
-  ["Texas Ecosystems Analytical Mapper", "http://tpwd.texas.gov/gis/team/", "The Texas Parks and Wildlife's Landscape Ecology program is great."]
-];
+
 var webmaps =
 [
   [
