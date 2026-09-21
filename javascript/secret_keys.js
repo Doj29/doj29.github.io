@@ -1,1 +1,1 @@
-mapboxgl.accessToken = "pk.eyJ1IjoiZG9qMjkiLCJhIjoiY211YnFseTg1MDFoMTMwb284c293dTZvNCJ9.KDC2iqqXFyag4OIvnXSnFA";
+mapboxgl_access_token = "pk.eyJ1IjoiZG9qMjkiLCJhIjoiY211YnFseTg1MDFoMTMwb284c293dTZvNCJ9.KDC2iqqXFyag4OIvnXSnFA";
