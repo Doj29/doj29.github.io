@@ -5,6 +5,7 @@
  <!-- All Styling for this HTML document are contained in this external css
  file -->
  <link rel="stylesheet" type="text/css" href="css/main_style.css">
+ <script src="javascript/secret_keys.js"></script>
  </head>
 <body>
   <div id="body-container">
@@ -45,9 +46,18 @@
           <script>
           document.write(webmap_table());
           </script>
-    </p>
+        </p>
 
       </div>
+      <h3>Geocoding Map</h3>
+      <br>
+      <div id="mapid" style="width: 600px; height: 400px; margin: auto; bottom: 30px;">
+        <script>
+        var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png?access_token={accessToken}', {maxZoom: 18, id: 'mapbox.mapbox-traffic-v1', accessToken: mapbox_access_token}).addTo(mymap);
+        </script>
+      </div>
+
     </div>
 
     <div id="copyright">
