@@ -1,1 +1,2 @@
-mapbox_access_token = "pk.eyJ1IjoiZG9qMjkiLCJhIjoiY211YnFseTg1MDFoMTMwb284c293dTZvNCJ9.KDC2iqqXFyag4OIvnXSnFA";
+//mapbox_access_token = "pk.eyJ1IjoiZG9qMjkiLCJhIjoiY211YnFseTg1MDFoMTMwb284c293dTZvNCJ9.KDC2iqqXFyag4OIvnXSnFA";
+mapbox_access_token = "pk.eyJ1IjoiZG9qMjkiLCJhIjoiY211YnFsZ3FsMDd1cjQ4cHppdHJ3bjJjayJ9.Bw9w_CC2Vzt-H-hA0NxkwA"
