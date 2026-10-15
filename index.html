@@ -46,6 +46,7 @@
             <li>Remote Sensing</li>
             <li>Human Mobility</li>
           </ol>
+
         </p>
       </div>
       <div id="webmap-reviews">
@@ -62,8 +63,23 @@
       <div id="mapid" style="width: 600px; height: 400px; margin: auto; bottom: 30px;">
         <script>
         var mymap = L.map('mapid');
-        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {maxZoom: 18, id: 'mapbox/dark-v10', accessToken: mapbox_access_token}).addTo(mymap);
+        //L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {maxZoom: 18, id: 'mapbox/dark-v10', accessToken: mapbox_access_token}).addTo(mymap);
 
+        var mapbox_access_token = "pk.eyJ1IjoiZG9qMjkiLCJhIjoiY211YnFseTg1MDFoMTMwb284c293dTZvNCJ9.KDC2iqqXFyag4OIvnXSnFA";
+
+        L.tileLayer(
+            'https://api.mapbox.com/styles/v1/{id}/tiles/512/{z}/{x}/{y}?access_token={accessToken}',
+            {
+                maxZoom: 18,
+                id: 'mapbox/dark-v10',
+                accessToken: mapbox_access_token,
+                tileSize: 512,
+                zoomOffset: -1,
+                attribution:
+                    '&copy; <a href="https://www.mapbox.com/about/maps/">Mapbox</a> ' +
+                    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }
+        ).addTo(mymap);
         var marker = L.marker([51.5, -0.09]).addTo(mymap);
         var circle = L.circle([51.508, -0.11], { color: 'red', fillColor: '#f03', fillOpacity: 0.5, radius: 500}).addTo(mymap);
         var polygon = L.polygon([[51.509, -0.08], [51.503, -0.06], [51.51, -0.047]]).addTo(mymap);
